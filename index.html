@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>L'Annam Restaurant</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+header {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1555992336-03a23c7b20ee');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header h1 { font-size: 60px; color: gold; }
+header p { font-size: 20px; }
+.btn {
+    background: gold;
+    color: black;
+    padding: 12px 25px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+section { padding: 60px 20px; text-align: center; }
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    background: #222;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+}
+.card img { width: 100%; border-radius: 10px; }
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    color: #aaa;
+}
+input { padding: 10px; width: 250px; }
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+<h1>L’Annam</h1>
+<p>Tinh hoa ẩm thực Việt – Trải nghiệm cao cấp</p>
+<a href="#booking" class="btn">Đặt bàn ngay</a>
+</div>
+</header>
+
+<section>
+<h2>Giới thiệu</h2>
+<p>
+L’Annam là nhà hàng ẩm thực Việt cao cấp, kết hợp tinh hoa truyền thống
+và phong cách hiện đại.
+</p>
+</section>
+
+<section>
+<h2>Menu nổi bật</h2>
+<div class="menu">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908554025-1b5c0b7f9f2d">
+<h3>Phở bò cao cấp</h3>
+<p>220.000 VNĐ</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1617196034796-73dfa7b1fd56">
+<h3>Gỏi cuốn tôm thịt</h3>
+<p>150.000 VNĐ</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1604908177522-429b5c5f7c39">
+<h3>Cá kho tộ</h3>
+<p>280.000 VNĐ</p>
+</div>
+
+</div>
+</section>
+
+<section id="booking">
+<h2>Đặt bàn</h2>
+<form>
+<input type="text" placeholder="Tên của bạn"><br><br>
+<input type="date"><br><br>
+<input type="time"><br><br>
+<button class="btn">Gửi yêu cầu</button>
+</form>
+</section>
+
+<footer>
+<p>© 2026 L’Annam Restaurant</p>
+</footer>
+
+</body>
+</html>
